@@ -4,7 +4,8 @@
   "info": {
     "singularName": "specialist",
     "pluralName": "specialists",
-    "displayName": "Specialist"
+    "displayName": "Specialist",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,6 +17,16 @@
     },
     "desc": {
       "type": "richtext"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
